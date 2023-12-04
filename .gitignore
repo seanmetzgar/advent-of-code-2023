@@ -13,3 +13,8 @@ node_modules/
 npm-debug.log*
 
 .eslintcache
+
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+.pnp.*
