@@ -1,0 +1,29 @@
+{
+  "name": "advent-of-code-2023",
+  "version": "1.0.0",
+  "description": "Advent of Code 2023",
+  "author": {
+    "name": "Sean Metzgar",
+    "email": "sean.metzgar@gmail.com"
+  },
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "prettier ./src/**/*.ts --write",
+    "lint": "eslint . --ext .ts",
+    "build": "tsc",
+    "start": "node ./build/advent.js",
+    "prod": "yarn build && yarn start"
+  },
+  "packageManager": "yarn@3.6.1",
+  "devDependencies": {
+    "@types/node": "^20.10.3",
+    "@typescript-eslint/eslint-plugin": "^6.13.1",
+    "@typescript-eslint/parser": "^6.13.1",
+    "eslint": "^8.55.0",
+    "fs": "^0.0.1-security",
+    "prettier": "^3.1.0",
+    "typescript": "^5.3.2"
+  }
+}
